@@ -6,54 +6,49 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/custom.css">
-	<style type="text/css">
-		.cola, .colb, .colc{border:1px #000 solid;}
-        
-		.cola{background: #aaa;}
-        
-		.colb{background: #bbb;}
-        
-		.colc{background: #ccc;}
-        
-		.carousel-inner>.item>img{
-			margin:0px auto;
-			height:200px;
-			width:auto;
-		}
-
-		p{font-size: 30px;}
-
-		@media screen and (max-width: 900px){
-
-			p {font-size: 12px;}
-		
-		}
-
-	</style>
-
+	
 </head>
 <body>
 	<div class="container">
+		<header class="row">
+ 			<div class="col-lg-6 col-sm-5">
+ 		    	<a class="navbar-brand" href="#"><img src="img/HCEC_logo.jpg" alt="Hope City Empowerment Center"></a>
+ 		    </div>	
+ 			<div class="col-lg-6 col-sm-7">
+ 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		    	<span class="glyphicon glyphicon-menu-hamburger"></span>
+		    	</button>
+		    </div>
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav nav-pills navbar-right">
+		  			<li role="presentation"><a href="index.html">Home</a></li>
+					<li role="presentation"><a href="events.html">Events</a></li>
+					<li role="presentation"><a href="contact.html">Contact HCEC</a></li>
+				</ul>
+			</div>
+		</header>
 
-	<nav class="navbar navbar-default">
-		<div class="navbar-header">
-      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        		<span class="glyphicon glyphicon-menu-hamburger"></span>
-      		</button>
-    		<a class="navbar-brand" href="#">Hope City Empowerment Center</a>
-    	</div>
-    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav nav-pills navbar-right">
-	  			<li role="presentation"><a href="index.html">Home</a></li>
-				<li role="presentation"><a href="events.html">Events</a></li>
-				<li role="presentation"><a href="contact.html">Contact HCEC</a></li>
-			</ul>
-		</div>
-	</nav>
-	<br><h2>Events at HCEC</h2>
-	<p>Governor Andrew M. Cuomo visits Hope City Empowerment Center in Brooklyn on December 22, 2013 where he helped distribute donated toys, coats and school supplies to New Yorkers in need.</p>
-	<p>We make our kitchen and facilities available to rent for community organizations and other private events. Please <a href="contact.html" class="btn btn-primary" role="button">contact us</a> for more information.</p>	
-	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/MgQDifQMeB4" frameborder="0" allowfullscreen></iframe></p>
+		<br><h2>Events at HCEC</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<p><img src="img/community.jpg" alt="Community & Local Events"></p>
+				<h4>Community & Local Events</h4>
+				<p>We are proud to host a wide variety of community events, which have featured Brooklyn Borough President Eric Adams, 77th Police Precinct community meetings & Governor Cuomo overseeing holiday gifts for underprivileged youth. Check our <a href="https://www.facebook.com/Hope.City.Empowerment.Center/">Facebook page</a> out for upcoming dates!</p>
+			</div>
+			<div class="col-md-4">
+				<p><img src="img/events.jpg" alt="Private Parties & Corporate Functions"></p>
+				<h4>Private Parties & Corporate Functions</h4>
+				<p>HCEC has hosted a wide variety of successful parties, including birthdays, baby showers, business seminars, non-profit raffles, and many more. Check out our <a href="https://www.instagram.com/explore/locations/272210686/hope-city-empowerment-center/">Instagram page</a> for more ideas on your next gathering!</p>
+			</div>
+			<div class="col-md-4">
+				<p><img src="img/pantry.jpg" alt="Food Pantry"></p>
+				<h4>Food Pantry</h4>
+				<p>Hope City serves breakfast on Saturday mornings, and lunch every Tuesday, Thursday and Friday. On Friday, twice a month, food is distributed to the community from our client choice food pantry. If you're interested in learning more about volunteering on Friday mornings, please call (718) 857-5698 for more information!</p>
+			</div>	
+		</div>	
+
+			<p>We make our kitchen and facilities available to rent for community organizations and other private events. Please <a href="contact.html" class="btn btn-primary" role="button">contact us</a> for more information.</p>	
+	</div><!--end container -->	
 
 	<!-- Javascript goes at end of body so it loads the rest of the page first-->
 	<script src="js/jquery.min.js"></script>
