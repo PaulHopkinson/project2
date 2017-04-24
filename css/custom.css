@@ -1,4 +1,50 @@
 /* this is Paul's custom CSS stylesheet */
 body {
+	padding-top: 50px;
     background-color: #ffcc00;
+}
+
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
+.glyphicon {
+	color: #221e22 ;
+}
+.glyphicon-pushpin, 
+.glyphicon-heart {
+	color: #5F4842;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
 }

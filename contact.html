@@ -1,77 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact the Hope City Empowerment Center</title>
+	<title>Hope City Empowerment Center | Brooklyn NY</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-	<!--Eloy's index CSS example)
-		<style type="text/css">
-			.cola, .colb, .colc{border:1px #000 solid;}
-	        
-			.cola{background: #aaa;}
-	        
-			.colb{background: #bbb;}
-	        
-			.colc{background: #ccc;}
-	        
-			.carousel-inner>.item>img{
-				margin:0px auto;
-				height:200px;
-				width:auto;
-			}
-
-			p{font-size: 30px;}
-
-			@media screen and (max-width: 900px){
-
-				p {font-size: 12px;}
-			
-			}
-
-		</style>
-	-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="js/respond.js"></script>
+	<script LANGUAGE="JavaScript" type="text/javascript">
+		function display() {
+		  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+		  message = "<ul><li><b>NAME: </b>" + document.form1.yourname.value;
+		  message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
+		  message += "<li><b>PHONE: </b>" + document.form1.phone.value + "</ul>";
+		  DispWin.document.write(message);
+		}
+	</script>	
 </head>
 <body>
 	<div class="container">
-		<header class="row" height="80">
- 			<div class="col-lg-6 col-sm-4">
- 		    	<a class="navbar-brand" href="#"><img src="img/HCEC_logo.jpg" alt="Hope City Empowerment Center"></a>
- 		    </div>	
- 			<div class="col-lg-6 col-sm-8">
- 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		    	<span class="glyphicon glyphicon-menu-hamburger"></span>
-		    	</button>
-		    </div>
-	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav nav-pills navbar-right">
-		  			<li role="presentation"><a href="index.html">Home</a></li>
-					<li role="presentation"><a href="events.html">Events</a></li>
-					<li role="presentation"><a href="contact.html">Contact HCEC</a></li>
-				</ul>
-			</div>
-		</header>
+	<!-- row 1: navigation -->
+    <div class="row">
+    	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Hope City Empowerment Center</a></li>
+                    <li class="dropdown"><a href="events.html" data-toggle="dropdown">Events <span class="caret"></span></a>
+                    	<ul class="dropdown-menu">
+                        	<li><a href="events.html#community">Community Events</a></li>
+                            <li><a href="events.html#events">Private Parties</a></li>
+                            <li><a href="events.html#pantry">Food Pantry</a></li>
+                            <li><a href="events.html#corporate">Corporate Functions</a></li>
+                        </ul>                    
+                    </li>
+                    <li class="active"><a href="contact.html">Contact</a></li>  
+                </ul> 
+            </div>
+         </nav> 
+    </div>
 
-		<p> </p>
-		<article class="row">
-			<div class="col-lg-10 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4">
-				<h1>Contact us at HCEC</h1>
-				<p>Cyntia Peterson
-				<br>Food Pantry Coordinator/Volunteer Manager
-				<br>(718) 857-5698
-				</p>
-				<p>Bradley Backus
-				<br>Executive Director
-				<br>(718) 857-5698
-				</p>
-				<h2>Address</h2>
-				<p><a href="http://maps.google.com/?q=650-656+Washington+Avenue,+Brooklyn,+NY+11238" target="_blank">650 Washington Avenue
-				<br>Brooklyn, NY 11238</a>
-				<br><a href="https://goo.gl/maps/XpnatBRFQ8q"><img src="http://maps.google.com/maps/api/staticmap?zoom=14&amp;size=450x250&amp;maptype=terrain&amp;markers=color:red|label:A|650-656+Washington+Avenue%2CBrooklyn%2CNY+11238&amp;sensor=false" border="0"></a>
-				</p>
-			</article>
-		</div>			
+	<div class="row">
+    	<article class="col-lg-offset-1 col-sm-offset-1 col-lg-8 col-sm-7 col-lg-push-3 col-sm-push-4">
+    		<h1>Contact us at HCEC</h1>
+			<p>Cyntia Peterson
+			<br>Food Pantry Coordinator/Volunteer Manager
+			<br>(718) 857-5698
+			</p>
+			<p>Bradley Backus
+			<br>Executive Director
+			<br>(718) 857-5698
+			</p>
+			<h2>Address</h2>
+			<p><a href="http://maps.google.com/?q=650-656+Washington+Avenue,+Brooklyn,+NY+11238" target="_blank">650 Washington Avenue
+			<br>Brooklyn, NY 11238</a>
+			<br><a href="https://goo.gl/maps/XpnatBRFQ8q"><img src="http://maps.google.com/maps/api/staticmap?zoom=14&amp;size=450x250&amp;maptype=terrain&amp;markers=color:red|label:A|650-656+Washington+Avenue%2CBrooklyn%2CNY+11238&amp;sensor=false" border="0"></a>
+			<p>
+				<h2>Request More Information</h2>
+					<form name="form1">
+					<p><b>Name:</b> <input TYPE="TEXT" SIZE="20" NAME="yourname">
+					</p>
+					<p><b>Address:</b> <input TYPE="TEXT" SIZE="30" NAME="address">
+					</p>
+					<p><b>Phone: </b> <input TYPE="TEXT" SIZE="15" NAME="phone">
+					</p>
+					<p><input TYPE="BUTTON" VALUE="Send" onClick="display();"></p>
+					</form>
+		</article>
+
+		<aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8">
+        	<a href="index.html"><img src="img/HCEC_logo.jpg" alt="Hope City Empowerment Center - BK, NY" class="img-responsive"></a>
+        	<h3>Upcoming Events</h3>
+        	<b>Food Pantry Dates</b>
+	        <br>May 5, 2017
+	        <br>May 19, 2017
+	        <br>June 2, 2017
+	        <br>June 16, 2017
+	        <br>June 30, 2017
+	        <br>July 14, 2017
+	        <br>July 28, 2017
+	        <p><b>See A Dentist, no cost</b>
+	        <br>Thur. April 27 - 9am until 5pm
+	        <br>get appointment application @ HCEC
+	        <p><b>Culinary Arts Training Program</b>
+	        <br>(sponsored by <a href="www.projectrenewal.org" target="_blank" alt="ProjectRenewal.org"> Project Renewal</a>)
+	        <br>open house every month, 
+	        <br>please RSVP: <a href="mailto:cynthiaclemons@projectrenewal.org">Cynthia Clemons</a>, Recruiter
+	        <br>cell (347) 714-0664
+	        <br>June 5, 2017 - application deadline
+	        <br>June 19, 2017 - Summer Class 2017
+	        <br>August 28, 2017 - Fall deadline
+	        <br>September 11, 2017 - Fall Class
+	        <br>December 4, 2017 - Winter deadline
+	        <br>December 18, 2017 - Winter Class
+        </aside>
+        </div>
+		
 	</div><!-- end container -->	
 		
 	<!-- Javascript goes at end of body so it loads the rest of the page first -->
